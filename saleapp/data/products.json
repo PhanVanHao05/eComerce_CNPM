@@ -1,0 +1,53 @@
+[{
+  "id": 1,
+  "name": "iphone 13 proMax",
+  "price": 13000000,
+  "image": "https://i.pinimg.com/564x/cb/23/35/cb2335f7fce923271c84f4b5dc83cf94.jpg",
+  "category_id": 1
+},
+{
+  "id": 2,
+  "name": "iphone 13",
+  "price": 10000000,
+  "image": "https://i.pinimg.com/564x/07/af/b2/07afb23cdcc9593e149c82052e3bd4c5.jpg",
+  "category_id": 1
+},
+{
+  "id": 3,
+  "name": "iphone 15 proMax",
+  "price": 33000000,
+  "image": "https://i.pinimg.com/564x/05/e3/79/05e3790df735a3824ce4f931cebc116d.jpg",
+  "category_id": 1
+},
+{
+  "id": 4,
+  "name": "Apple Ipads",
+  "price": 23000000,
+  "image": "https://i.pinimg.com/564x/6a/2f/02/6a2f02d1babbba181f62afe69639e940.jpg",
+  "category_id": 2
+},
+{
+  "id": 5,
+  "name": "Laptop dell inspiron 3501",
+  "price": 20000000,
+  "image": "https://i.pinimg.com/564x/71/33/22/7133224b074fc7c2d8d22c66909e5fae.jpg",
+  "category_id": 3
+},{
+  "id": 6,
+  "name": "Defender Series for iPad",
+  "price": 15000000,
+  "image": "https://i.pinimg.com/564x/58/0e/a0/580ea01daba2c58cfba60a2d9dcc3f6a.jpg",
+  "category_id": 3
+},{
+  "id": 7,
+  "name": "Tablet Galaxy Tab s6",
+  "price": 21000000,
+  "image": "https://i.pinimg.com/564x/3e/7f/57/3e7f57c0eeb65e48bf4266f14c32210c.jpg",
+  "category_id": 2
+},{
+  "id": 8,
+  "name": "Macbook Air 3",
+  "price": 30000000,
+  "image": "https://i.pinimg.com/564x/30/c4/83/30c483961e966d34c6f3347c3de1a006.jpg",
+  "category_id": 3
+}]
