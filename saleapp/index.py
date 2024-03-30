@@ -1,7 +1,6 @@
-from flask import Flask, render_template, request, redirect
+from flask import render_template, request, redirect
 import dao
-
-app = Flask(__name__)
+from saleapp import app
 
 
 @app.route('/')
@@ -12,7 +11,9 @@ def index():
     cate_id = request.args.get('category_id')
     # cate_id chứa id cho danh mục khi client click vào
 
-    products = dao.load_products(q, cate_id)
+    page = request.args.get('page')
+
+    products = dao.load_products(q=q, cate_id=cate_id, page=page)
     return render_template('index.html', products=products)
 
 
